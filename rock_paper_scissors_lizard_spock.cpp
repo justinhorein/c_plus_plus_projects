@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <stdlib.h>
+#include <ctime>
 
 using namespace std;
 
@@ -20,11 +21,11 @@ int main() {
   cout << "rock paper scissors!\n";
   cout << "====================\n";
 
-  cout << "1) ✊\n";
-  cout << "2) ✋\n";
-  cout << "3) ✂️\n";
-  cout << "4) 🦎\n";
-  cout << "5) 🖖\n";
+  cout << "1) Rock\n";
+  cout << "2) Paper\n";
+  cout << "3) Scissors\n";
+  cout << "4) Lizard\n";
+  cout << "5) Spock\n";
 
   cout << "shoot!\n";
 
@@ -133,8 +134,8 @@ int main() {
           shot = false;
       }
     } else {
-      cout <<"Please enter a number between 1 and 3!\n";
-      shot = false;
+      cout <<"Please enter a number between 1 and 5!\n";
+      _sleep(2000);
     }
   }
 }
